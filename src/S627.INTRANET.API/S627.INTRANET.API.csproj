@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\S627.INTRANET.APPLICATION\S627.INTRANET.APPLICATION.csproj" />
+      <ProjectReference Include="..\S627.INTRANET.COMMUNICATION\S627.INTRANET.COMMUNICATION.csproj" />
+      <ProjectReference Include="..\S627.INTRANET.EXCEPTION\S627.INTRANET.EXCEPTION.csproj" />
+      <ProjectReference Include="..\S627.INTRANET.INFRASTRUCTURE\S627.INTRANET.INFRASTRUCTURE.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Class1.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="12.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\S627.INTRANET.COMMUNICATION\S627.INTRANET.COMMUNICATION.csproj" />
+      <ProjectReference Include="..\S627.INTRANET.DOMAIN\S627.INTRANET.DOMAIN.csproj" />
+      <ProjectReference Include="..\S627.INTRANET.EXCEPTION\S627.INTRANET.EXCEPTION.csproj" />
+    </ItemGroup>
+
+</Project>
